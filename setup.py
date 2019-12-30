@@ -20,7 +20,6 @@ setup(
     version="2.5.5",
     license="MIT",
     description="safrs : SqlAlchemy Flask-Restful Swagger2",
-    long_description=open("README.rst").read(),
     author="Thomas Pollet",
     author_email="thomas.pollet@gmail.com",
     url="https://github.com/thomaxxl/safrs",
