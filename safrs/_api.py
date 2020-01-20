@@ -212,7 +212,7 @@ class Api(FRSApiBase):
         # Expose the relationship for the parent class:
         # GET requests to this endpoint retrieve all item ids
         # safrs.log.info("Exposing relationship {} on {}, endpoint: {}".format(rel_name, url, endpoint))
-        self.add_resource(api_class, url, endpoint=endpoint, methods=["GET", "POST", "PATCH", "DELETE"])
+        self.add_resource(api_class, url, endpoint=endpoint, methods=safrs_object.http_methods)
 
         #
         try:
